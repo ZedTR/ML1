@@ -1,7 +1,4 @@
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
-
 import numpy as np
 import matplotlib.pyplot as plot
 import pandas as ps
@@ -39,10 +36,6 @@ def main():
     train_x[:,3:] = scalar.fit_transform(train_x[:,3:])
     test_x[:,3:] = scalar.transform(test_x[:,3:])
 
-
-
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     main()
 
