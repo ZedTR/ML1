@@ -33,7 +33,7 @@ def main():
 
     # splitting data
     from sklearn.model_selection import train_test_split
-    train_x, test_x,train_y, test_x =  train_test_split(x, y, test_size= 0.2,random_state= 1)
+    train_x, test_x,train_y, test_y =  train_test_split(x, y, test_size= 0.2,random_state= 1)
 
     # feature scaling
     from sklearn.preprocessing import StandardScaler
