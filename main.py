@@ -5,7 +5,7 @@ import pandas as ps
 
 
 def main():
-    dataset = ps.read_csv('Data.csv')
+    dataset = ps.read_csv('.csv')
     x = dataset.iloc[:, :-1].values  # index locate take all cols except the last one indepnedent cols
     y = dataset.iloc[:, -1].values  # get the dependent col last col
     # To fill the empty data slots
